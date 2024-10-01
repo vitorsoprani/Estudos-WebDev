@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elementos flutuantes na prática</title>
+    
+        <style type="text/css">
+            body{
+                background: #f4f4f4;
+            }
+
+            #principal{
+                width: 920px;
+            }
+
+            .noticia{
+                background: #e5e5e5;
+                padding: 5px;
+                margin: 7px;
+                width: 280px;
+                float: left;
+            }
+
+
+            .imagem-galeria{
+                background: white;
+                width: 265px;
+                padding: 5px;
+                float: left;
+                margin: 12px;
+            }
+
+            .clear{
+                clear: both;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+        <div id = "principal">
+            <div> <!--NOTICIAS-->
+                <div class="noticia">
+                    <h2>Lorem ipsum dolor amet 1</h2>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora quia iusto doloremque aliquam dicta rem est sunt earum maiores. Exercitationem fugiat unde quos natus magnam eos facere repellendus dolorum.
+                    </p>
+    
+                    <a href="">Veja mais</a>
+                </div>
+    
+                <div class="noticia">
+                    <h2>lorem ipsum dolor sit amet 2</h2>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique quisquam quia sint at, recusandae, delectus omnis, fuga iusto eius corrupti magnam voluptas veritatis incidunt quis illum fugiat eligendi necessitatibus.
+                    </p>
+    
+                    <a href="">Veja mais</a>
+                </div>
+    
+                <div class="noticia">
+                    <h2>lorem ipsum dolor sit amet 3</h2>
+    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis excepturi distinctio, nisi quod corporis possimus rem quisquam inventore magni tenetur corrupti impedit in dolor enim sunt earum maiores adipisci?
+                    </p>
+    
+                    <a href="">Veja mais</a>
+                </div>    
+            </div> <!--FIM NOTICIAS-->
+    
+            <div class="clear"></div> <!--LIMPANDO O FLUXO FLUTUANTE-->
+
+            <div> <!--FOTOS-->
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem1.png" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima sunt deserunt, quo nemo veritatis beatae qui harum veniam accusantium magni quae autem eos consectetur officiis enim exercitationem libero assumenda reiciendis.
+                    </p>
+                </div>
+
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem5.png" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima sunt deserunt, quo nemo veritatis beatae qui harum veniam accusantium magni quae autem eos consectetur officiis enim exercitationem libero assumenda reiciendis.
+                    </p>
+                </div>
+
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem2.png" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima sunt deserunt, quo nemo veritatis beatae qui harum veniam accusantium magni quae autem eos consectetur officiis enim exercitationem libero assumenda reiciendis.
+                    </p>
+                </div>
+
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem3.png" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima sunt deserunt, quo nemo veritatis beatae qui harum veniam accusantium magni quae autem eos consectetur officiis enim exercitationem libero assumenda reiciendis.
+                    </p>
+                </div>
+
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem4.png" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima sunt deserunt, quo nemo veritatis beatae qui harum veniam accusantium magni quae autem eos consectetur officiis enim exercitationem libero assumenda reiciendis.
+                    </p>
+                </div>
+
+            </div> <!--FIM FOTOS-->
+
+            <div class="clear"></div> <!--LIMPANDO O FLUXO FLUTUANTE-->
+        </div> <!--FIM PRINCIPAL-->
+    </body>
+</html>
