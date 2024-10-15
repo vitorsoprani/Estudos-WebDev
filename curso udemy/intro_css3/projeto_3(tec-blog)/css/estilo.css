@@ -1,0 +1,124 @@
+/* LIMPANDO FORMATAÇÕES PADRAO: */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* FORMATANDO O DOCUMENTO: */
+body{
+    font-size: 100%;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*
+**** LAYOUT ****
+*/
+#header{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#main{
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#feed{
+    width: 660px;
+    float: left;
+}
+
+#lateral-bar{
+    width: 240px;
+    float: right;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #CCC;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.data-post{
+    display: block;
+    font-size: 0.8;
+    border-bottom: solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.lateral-content{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*
+**** FORMATAÇÃO DOS LINKS ****
+*/
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#menu a:link, #menu a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    color: #f7b600;
+    background: white;
+    text-decoration: none;
+}
+
+
+/*
+**** FORMATAÇÕES EM GERAL ****
+*/
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+}
+
+.texto-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.branco{
+    color: white;
+}
