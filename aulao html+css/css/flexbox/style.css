@@ -1,0 +1,30 @@
+.container{
+    border: 1px solid red;
+
+    display: flex;
+    height: 90vh;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: #ff7c7c;
+}
+
+#box2{
+    background-color: #ebff7c;
+}
+
+#box3{
+    background-color: #c2ff7c;
+}
+
+#box4{
+    background-color: #7cf0ff;
+}
