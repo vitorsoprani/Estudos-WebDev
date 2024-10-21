@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navbar Responsiva</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    
+    <body>
+        <nav>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+
+            <ul id="menuList">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+
+        <main>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ipsum maiores provident culpa labore reprehenderit quaerat esse delectus, atque ratione eum repellendus impedit suscipit voluptate ducimus magnam molestias eius rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, necessitatibus hic ad aliquam consequuntur, beatae vitae facilis, adipisci iusto enim autem. Minima nam fugiat voluptatem saepe, assumenda quis nisi quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aut atque ipsa enim libero. Velit sed, est cum dolores accusamus voluptates, quidem quas mollitia assumenda nulla error itaque doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi a possimus, reiciendis vero, quisquam ducimus ut tempore fugiat est deserunt! Dolore iusto explicabo laudantium non, quos quasi enim nisi.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos unde enim sapiente beatae aliquam! Quo eligendi sunt tempora deleniti, ea nostrum voluptas, magni culpa dignissimos ipsa minima cupiditate inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos ducimus, voluptatum blanditiis consequuntur et deleniti reprehenderit dicta consectetur facilis aliquid, a maiores ipsa magni nemo debitis vel esse quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, corporis iste quos labore et provident blanditiis cum, vero illo perspiciatis quasi est ut. Dolores maiores est corrupti autem quibusdam odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit architecto, natus nam ab consectetur, eius voluptatem atque ex nostrum officiis, fugit corporis! Nemo corrupti provident sunt. Animi, quae corrupti?
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, autem nemo. Illo ex quibusdam ut consectetur reprehenderit nam quidem molestias? Beatae doloribus rerum nisi optio numquam eaque laboriosam cumque excepturi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora accusantium beatae tenetur et nam, ipsa eaque laboriosam, magni dolores fugiat perferendis, in quae. Quidem distinctio autem tempora excepturi exercitationem quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit velit voluptatum reiciendis obcaecati ducimus fugiat quasi libero. In sapiente ratione repudiandae perspiciatis, numquam culpa id quis fugiat reiciendis molestiae?
+            </p>
+        </main>
+
+        <script>
+            let menuList = document.getElementById("menuList")
+            menuList.style.maxHeight = "0px;";
+
+            function toggleMenu(){
+                if(menuList.style.maxHeight == "0px"){
+                    menuList.style.maxHeight = "100vh";
+                } else {
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+        <script src="https://kit.fontawesome.com/197d67f1bd.js" crossorigin="anonymous"></script> <!--NAO SEI COMO FUNCIONA, SÓ COPIEI O TUTORIAL-->
+    </body>
+</html> 
